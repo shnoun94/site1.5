@@ -185,9 +185,6 @@
   .absolute {
     position: absolute;
   }
-  .mt-0 {
-    margin-top: calc(var(--spacing) * 0);
-  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
@@ -205,9 +202,6 @@
   }
   .mt-45 {
     margin-top: calc(var(--spacing) * 45);
-  }
-  .mt-450 {
-    margin-top: calc(var(--spacing) * 450);
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -227,17 +221,11 @@
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
   }
-  .ml-19 {
-    margin-left: calc(var(--spacing) * 19);
-  }
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
   }
   .ml-30 {
     margin-left: calc(var(--spacing) * 30);
-  }
-  .ml-40 {
-    margin-left: calc(var(--spacing) * 40);
   }
   .ml-45 {
     margin-left: calc(var(--spacing) * 45);
@@ -263,9 +251,6 @@
   .ml-100 {
     margin-left: calc(var(--spacing) * 100);
   }
-  .ml-120 {
-    margin-left: calc(var(--spacing) * 120);
-  }
   .ml-140 {
     margin-left: calc(var(--spacing) * 140);
   }
@@ -280,9 +265,6 @@
   }
   .flex {
     display: flex;
-  }
-  .grid {
-    display: grid;
   }
   .h-5 {
     height: calc(var(--spacing) * 5);
@@ -299,14 +281,14 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
   .h-43 {
     height: calc(var(--spacing) * 43);
-  }
-  .h-90 {
-    height: calc(var(--spacing) * 90);
   }
   .h-110 {
     height: calc(var(--spacing) * 110);
@@ -319,9 +301,6 @@
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -480,12 +459,6 @@
   .object-scale-down {
     object-fit: scale-down;
   }
-  .object-bottom-right {
-    object-position: right bottom;
-  }
-  .object-center {
-    object-position: center;
-  }
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
   }
@@ -504,17 +477,11 @@
   .pt-30 {
     padding-top: calc(var(--spacing) * 30);
   }
-  .pl-0 {
-    padding-left: calc(var(--spacing) * 0);
-  }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
-  }
-  .pl-7 {
-    padding-left: calc(var(--spacing) * 7);
   }
   .pl-10 {
     padding-left: calc(var(--spacing) * 10);
